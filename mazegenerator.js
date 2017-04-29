@@ -55,4 +55,6 @@ function newMaze(x, y) {
     }
     return cells;
 }
-    
+    setTimeout(function(){ 
+        alert(cells)
+        },3000);
